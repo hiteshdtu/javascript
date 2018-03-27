@@ -1,0 +1,35 @@
+<html>
+
+<head>
+<script>
+let player= new Object();
+
+
+player={
+name:'Ronaldo',
+pace:96,
+dribbling:90,
+physical:92,
+"is banned":false
+
+};
+alert(player.name);
+alert(player["is banned"]);
+
+
+function makeplayer(name, pace,dribbling,physical) {
+  return {
+    name: name,
+    pace: pace,
+    dribbling:dribbling,
+    physical:physical
+    
+  };
+}
+
+let player1 = makeplayer('Smith', 80,85,70);
+alert(player1.name);
+
+</script>
+</head>
+</html>

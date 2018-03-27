@@ -1,0 +1,26 @@
+<html>
+
+<head>
+<script>
+let map= new Map();
+
+
+map.set('Ronaldo',94);
+
+map.set('Messi',95);
+map.set('Pogba',89);
+map.set('bale',91);
+
+alert(map.size);
+map.delete('bale');
+alert(map.size);
+alert(map.has('Messi'));
+
+for(let pl of map.keys() )
+{
+alert(pl);
+}
+
+</script>
+</head>
+</html>
